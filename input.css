@@ -1,0 +1,7 @@
+body {
+    background-color: white;
+}
+.sections {
+    column-count: 3;
+    column-rule-width: 1px;
+}
