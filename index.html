@@ -10,7 +10,8 @@
     <title> Fatima Jinnah Women University </title>
 </head>
 <body>
-    <div class=" ">
+    <!--------------------------------------------------------navigation bar main----------------------------------------->
+    <div class="navbar">
         <nav class="px-2 sm:px-4 py-2.5 rounded">
             <ul class="flex flex-col p-0 mt-0 md:flex-row md:space-x-2 md:mt-0 md:text-sm md:font-medium md:border-0">
                 <div class="flex flex-wrap justify-bewteen text-slate-800 mx-auto">
@@ -29,7 +30,7 @@
                 </div>
                 <div class="p-1 max-w-sm mx-auto flex items-center space-x-1 hover:bg-lime-300 rounded">
                     <img src="https://img.icons8.com/ios/22/null/info--v1.png"/>
-                    <li><a href="#" class="block py-1 pr-0 pl-0 rounded md:bg-transparent">ABOUT</a></li>
+                    <li><a href="about.html" class="block py-1 pr-0 pl-0 rounded md:bg-transparent">ABOUT</a></li>
                 </div>
                 <div class="p-1 max-w-sm mx-auto flex items-center space-x-1 hover:bg-lime-300 rounded">
                     <img src="https://img.icons8.com/ios/22/null/ticket.png"/>
@@ -63,10 +64,12 @@
             </ul>
         </nav>
     </div>
+    <!-- --------------------------------------- main page navigation---------------------------------------------------->
     <div class="space-x-2 pd-2 px-5 text-xl text-center font-bold">
         <p>Home</p>
         <br>
     </div>
+    <!-- ----------------------------------------pictures spaces(culosal) ----------------------------------------------->
     <div class="container mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3">
         <div class="w-full rounded hover:opacity-50">
             <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -81,8 +84,9 @@
                 alt="image">
         </div><br>
     </div>
-
+    <!--------------------------------------------body columns ---------------------------------------------------------->
     <div class="grid grid-cols-3 gap-4"> 
+    <!------------------------------------------------side bar optional ------------------------------------------------->
         <div class="inline-grid grid-col-1 gap-2 m-5 p-6 items-center text-justify font-semibold" >
             <span class="inline-grid  gap-4 m-0 p-3 rounded justify">
                 <span class="bg-lime-200 hover:bg-lime-300 rounded p-3">Date: {date} </span>
@@ -95,6 +99,7 @@
                 <span class="bg-lime-200 hover:bg-lime-300 rounded p-3">Mohtrama Fatima Jinnah</span>
             </span>
         </div>
+    <!--------------------------------------------------body content ----------------------------------------------------->
         <div class="inline-grid grid-col-2 gap-1 text-justify" >
             <h1 class="font-bold text-xl text-center">WELCOME TO FATIMA JINNAH WOMEN UNIVERSITY</h1><br><br>
             <p><b>Fatima Jinnah Women University is a institution with a vision to promoting and facilitating studies and research in various fields of Higher Education for women</b>.</p>
@@ -103,6 +108,7 @@
             <b class="text-right">Dr. Saima Hamid</b>
             <b class="text-right">Vice Chancellor</b>
         </div>
+    <!----------------------------------------------news scroll bar ------------------------------------------------------>
         <div class="inline-grid grid-col-1 gap-2 m-5 p-5 items-center bg-lime-200 rounded "  >
             <span class="inline-grid  gap-4 m-0 p-3 rounded justify">
                 <span class=" hover:bg-lime-300 rounded">Date: {date} </span>
@@ -116,6 +122,7 @@
             </span>
         </div>
     </div>
+    <!----------------------------------------------important links for university --------------------------------------->
     <div class="flex flex-col items-center md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0">
         <nav class="px-5 sm:px-4 py-2.5 rounded text-3xl">
             <ul class=" flex flex-col p-2 mt-5 md:flex-row md:space-x-14 md:mt-0 md:text-sm md:font-medium md:border-0">
@@ -142,6 +149,7 @@
             </ul>
         </nav>
     </div>
+    <!----------------------------------------------important links for university ----------------------------------------->
     <div class="flex flex-col  items-center md:flex-row  md:mt-0 md:text-sm md:font-medium md:border-0">
         <nav class="px-5 sm:px-4 py-2.5 rounded text-3xl">
             <ul class="flex flex-col p-2 mt-5 md:flex-row md:space-x-14 md:mt-0 md:text-sm md:font-medium md:border-0">
@@ -168,6 +176,7 @@
             </ul>
         </nav>
     </div>
+    <!----------------------------------------------------vision and mission (columns snapping) ------------------------------------->
     <div class="grid grid-cols-4 gap-4 m-10 p-5 rounded">
         <div class="flex flex-col col-span-2">
             <h1 class="font-4xl"><b>Our Vision and Mission</b></h1>
@@ -212,6 +221,7 @@
     <!-- <div class="p-5 m-5 items-center font-semibold text-2xl ">
         <p class="text-center p-6 box-decoration-clone bg-gradient-to-r rounded from-lime-200 to-lime-400 text-orange-900">To ensure the provision of a drug free environment to the students, staff, and visitors, the use of drugs and smoking is prohibited at the university campus.</p>
     </div> -->
+    <!------------------------------------------------student Success stories(column 3) -------------------------------------------->
     <div>
         <h1 class="text-center text-4xl font-semibold">Student Success Stories</h1>
         <div class="grid grid-col-3 gap-4 m-10 p-5 ">
@@ -238,6 +248,7 @@
             </nav>
         </div>
     </div>
+    <!-----------------------------------------------------------------campus facilities (column snapping) ---------------->
     <div class="on-campus m-5">
         <h1 class="text-center text-4xl font-semibold">On Campus Facilities</h1><br><br>
         <div class="gap-4 columns-2">
@@ -301,7 +312,7 @@
             </div>
         </div>
     </div>
-    <!-- contact pages -->
+    <!----------------------------------------------------- contact pages(column snapping) ------------------------------------------------>
     <div class="justify-self-auto">
         <h1 class="font-bold text-4xl text-center">Contact Us</h1>
         <ul class="flex felx-col gap-4 m-10 p-5 ">
@@ -316,10 +327,10 @@
                 </div>
                 <div class="p-1 max-w-sm mx-auto flex space-x-1 hover:bg-lime-300 rounded">
                     <img src="https://img.icons8.com/ios/50/null/worldwide-location.png"/>
-                    <li>Fatima Jinnah Women University, Mall Road, Rawalpindi, Pakistan</li>
+                    <li><a href="https://www.google.com/maps/dir/33.5809583,73.0523336/fjw+location/@33.5839899,73.0504365,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x38df935d88751e21:0x6d71a383fef3e118!2m2!1d73.0633981!2d33.5865432" >Fatima Jinnah Women University, Mall Road, Rawalpindi, Pakistan</a></li>
                 </div>
             </div>
-            <div class="flex flex-col gap-4 m-10 p-5 itmes-justify">
+            <div class="flex flex-col gap-4 m-10 p-5 itmes-justify bg-gray-100">
                 <div class="p-1 max-w-sm mx-auto flex items-center space-x-1 hover:bg-lime-300 rounded ">
                     <img src="https://img.icons8.com/ios-glyphs/50/null/graduation-scroll.png"/>
                     <li>@Alumni Portal</li>
@@ -337,7 +348,7 @@
                     <li>QEC Portal</li>
                 </div>
             </div>
-            <div class="justify-items-start gap-4 m-10 p-5 ">
+            <div class="justify-items-start gap-4 m-10 p-5 bg-gray-100 ">
                 <div class="p-1 max-w-sm mx-auto flex items-center space-x-1 hover:bg-lime-300 rounded">
                     <img src="https://img.icons8.com/external-outline-geotatah/64/null/external-institute-training-management-system-outline-geotatah.png"/>
                     <li>SDGs Research and Resource Centre (SRRC)</li>
@@ -357,7 +368,7 @@
             </div>
         </ul>
     </div>
-    <!-- footer with all the main contacts -->
+    <!---------------------------------------------------------- footer with all the main contacts ------------------------>
     <footer class="grid grid-col-4 gap-2 m-5 p-2 bg-lime-200 rounded">
         <div class="grid grid-col-4 gap-1 m-5 p-2 ">
             <nav class="px-2 sm:px-4 py-2.5 rounded ">
@@ -401,10 +412,11 @@
                     </div>
             </nav>
         </div>
+    <!-------------------------------------  socials for University (justify center) -------------------------------------------------------->
         <div class="flex felx-col gap-2 justify-center space-x-28 mx-20">
-            <span class="hover:bg-lime-300 rounded"><img src="https://img.icons8.com/ios/50/null/facebook-new.png"/></span>
-            <span class="hover:bg-lime-300 rounded "><img src="https://img.icons8.com/ios/50/null/twitter--v1.png"/></span>
-            <span class="hover:bg-lime-300 rounded "><a href="https://fjwu.edu.pk/"><img src="https://img.icons8.com/ios/50/null/internet--v1.png"/></a></span>
+            <span class="hover:bg-lime-300 hover:p-2 rounded"><img src="https://img.icons8.com/ios/50/null/facebook-new.png"/></span>
+            <span class="hover:bg-lime-300 hover:p-2 rounded "><img src="https://img.icons8.com/ios/50/null/twitter--v1.png"/></span>
+            <span class="hover:bg-lime-300 hover:p-2 rounded "><a href="https://fjwu.edu.pk/"><img src="https://img.icons8.com/ios/50/null/internet--v1.png"/></a></span>
             <!-- <span class="text-end font-bold">Fatima Jinnah Women University</span> -->
         </div>
     </footer>
